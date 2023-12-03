@@ -141,3 +141,55 @@ body {
     border-radius: 8px;
 }
 
+/* **** FIRST PART ENDS **** */
+
+/* **** SECOND PART BEGINS **** */
+.second {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.inside {
+    width: 40%;
+    height: 350px;
+    background-image: url('image/spices-spoons.jpg');
+    background-position: center;
+    background-size: 110%;
+    margin: 1px 15px;
+    border-radius: 20px;
+    box-shadow: -1px 3px 5px gray;
+    overflow: hidden;
+}
+
+.inside.two {
+    background-image: url('image/spices-bottles.png');
+    background-size: 130%;
+}
+
+.inside .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    color: white;
+    padding: 0 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inside .overlay p:nth-child(1){
+    font-size: 3.4em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.inside .overlay p:nth-child(2){
+    font-size: 1.1em;
+    font-weight: 700;
+}
+/* **** SECOND PART ENDS **** */
+
+/* **** THIRD PART BEGINS **** */
+
+/* **** THIRD PART ENDS **** */
+
