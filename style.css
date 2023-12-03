@@ -141,6 +141,10 @@ body {
     border-radius: 8px;
 }
 
+.purity button:hover {
+    background-color: var(--color2);
+}
+
 /* **** FIRST PART ENDS **** */
 
 /* **** SECOND PART BEGINS **** */
