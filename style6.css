@@ -1,0 +1,48 @@
+/* **** SIXTH PART BEGINS **** */
+.sixth {
+    width: 100%;
+    height: 535px;
+    background-image: url('image/05.png');
+    background-repeat: no-repeat;
+
+    padding-top: 140px;
+
+   
+}
+
+.fresh-spices {
+    width: 33%;
+    margin-left: 108px;
+}
+
+.fresh-spices p:nth-child(1){
+    font-size: 3.2em;
+    font-weight: 800;
+    color: var(--color1);
+    margin-bottom: 0;
+}
+
+.fresh-spices p:nth-child(2){
+font-size: 1.3em;
+
+}
+
+.fresh-spices button {
+    background-color: var(--color1);
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 16px;
+}
+
+.fresh-spices button:hover {
+    background-color: var(--color2);
+}
+
+
+/* **** SIXTH PART ENDS **** */
+
+
+
+

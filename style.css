@@ -24,7 +24,7 @@ body {
     color: white;
 }
 
-.top-bar2{
+.top-bar2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,7 +82,7 @@ body {
 .user-0 {
     font-size: 13px;
     font-weight: 600;
-    color: var(--color1);   
+    color: var(--color1);
 
     position: relative;
     left: -28px;
@@ -92,7 +92,7 @@ body {
     color: var(--color1);
 }
 
-.first{
+.first {
     height: 539px;
     width: 100%;
     background-image: url('image/01.png');
@@ -105,10 +105,11 @@ body {
 .mill {
     width: 100%;
     text-align: center;
-   
+
 }
+
 .mill img {
-    width: 110px;   
+    width: 110px;
 
     position: relative;
     top: -65px;
@@ -121,13 +122,13 @@ body {
     text-align: end;
 }
 
-.purity p:nth-child(1){
+.purity p:nth-child(1) {
     color: var(--color1);
     font-size: 3.4em;
     font-weight: 700;
 }
 
-.purity p:nth-child(2){
+.purity p:nth-child(2) {
     font-size: 1.1em;
     font-weight: 700;
 }
@@ -153,6 +154,7 @@ body {
     justify-content: center;
     padding: 40px 80px;
 }
+
 .inside {
     width: 45%;
     height: 350px;
@@ -181,16 +183,17 @@ body {
     justify-content: center;
 }
 
-.inside .overlay p:nth-child(1){
+.inside .overlay p:nth-child(1) {
     font-size: 3.4em;
     font-weight: 700;
     margin: 0;
 }
 
-.inside .overlay p:nth-child(2){
+.inside .overlay p:nth-child(2) {
     font-size: 1.1em;
     font-weight: 700;
 }
+
 /* **** SECOND PART ENDS **** */
 
 /* **** THIRD PART BEGINS **** */
@@ -201,19 +204,20 @@ body {
     border-bottom: 1px solid var(--color1);
     padding: 20px 1px;
 }
-.chemical{
+
+.chemical {
     display: flex;
     align-items: center;
 }
 
-.chemical p:nth-child(1){
+.chemical p:nth-child(1) {
     font-size: 3em;
     font-weight: 700;
     color: var(--color1);
     margin: 0;
 }
 
-.chemical p:nth-child(2){
+.chemical p:nth-child(2) {
     font-size: 1.1em;
     font-weight: 700;
     color: var(--color1);
@@ -229,6 +233,88 @@ body {
     width: max-content;
     margin: 40px auto;
 }
+
 /* **** FOURTH PART ENDS **** */
 
+/* **** FIFTH PART BEGINS **** */
 
+.fifth {
+    display: flex;
+    justify-content: center;
+}
+.fresh-mill,
+.ready-mix,
+.instant {
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: -14px -14px 1px var(--color1), 3px 5px 6px var(--color4);
+    background-image: url("image/02.png");
+    background-position: bottom;
+    background-size: 95%;
+    background-repeat: no-repeat;
+}
+
+.ready-mix {
+    background-image: url('image/03.png');
+}
+
+.instant {
+    background-image: url('image/04.png');
+}
+
+.fresh-mill p:nth-child(1),
+.ready-mix p:nth-child(1),
+.instant p:nth-child(1){
+    font-size: 1.3em;
+    font-weight: 600;
+    color: var(--color1);
+    margin-bottom: 0;
+}
+
+.fresh-mill p:nth-child(2),
+.ready-mix p:nth-child(2),
+.instant p:nth-child(2) {
+
+    font-family: 'Dancing Script', cursive;
+    color: var(--color3);
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.fresh-mill button,
+.ready-mix button,
+.instant button {
+    background-color: white;
+    border: 2px solid var(--color1);
+    font-size: 0.8em;
+    font-weight: 600;
+    color: var(--color1);
+    padding: 2px 10px;
+}
+
+.fifth-btn {
+    width: 100%;
+    text-align: center;
+    /* margin-top: 20px; */
+    padding: 50px 1px;
+
+}
+
+.fifth-btn button {
+    background-color: var(--color1);
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.fifth-btn button:hover {
+    background-color: var(--color2);
+}
+
+/* **** FIFTH PART ENDS **** */
